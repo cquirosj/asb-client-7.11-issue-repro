@@ -11,13 +11,12 @@ public class StartCmdHandler : IHandleMessages<StartCmd>
     {
         Console.WriteLine($"Starting processing command, handling batch: {message.BatchId}");
         
-        // Create a byte array with the specified size
         var attachmentData = new byte[170000];
-        //var attachmentData = new byte[30000];
-            
         new Random().NextBytes(attachmentData);
+
+        var numberOfMessages = 100;
         
-        await Task.WhenAll(new int[100].Select(id => new QueueEmailMessage() { Attachment =  attachmentData}).ToArray().Select(context.SendLocal));
-        Console.WriteLine($"100 messages sent while handling batch: {message.BatchId}");
+        await Task.WhenAll(new int[numberOfMessages].Select(id => new QueueEmailMessage() { Attachment =  attachmentData}).ToArray().Select(context.SendLocal));
+        Console.WriteLine($"{numberOfMessages} messages sent while handling batch: {message.BatchId}");
     }
 }
