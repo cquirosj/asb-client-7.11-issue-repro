@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repro", "Repro\Repro.csproj", "{A0A090E1-C497-44AA-A40B-E55B9DEC8E17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{7113B2DF-4523-4E1F-A3BF-AF4FCEE6A9A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0A090E1-C497-44AA-A40B-E55B9DEC8E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A090E1-C497-44AA-A40B-E55B9DEC8E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A090E1-C497-44AA-A40B-E55B9DEC8E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A090E1-C497-44AA-A40B-E55B9DEC8E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7113B2DF-4523-4E1F-A3BF-AF4FCEE6A9A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7113B2DF-4523-4E1F-A3BF-AF4FCEE6A9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7113B2DF-4523-4E1F-A3BF-AF4FCEE6A9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7113B2DF-4523-4E1F-A3BF-AF4FCEE6A9A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
