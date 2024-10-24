@@ -16,10 +16,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Common\Common.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ReferencePathWithRefAssemblies Update="\Users\christianquiros\.nuget\packages\azure.messaging.servicebus\7.18.2\lib\netstandard2.0\Azure.Messaging.ServiceBus.dll" />
-    </ItemGroup>
+    </ItemGroup>    
 
 </Project>
